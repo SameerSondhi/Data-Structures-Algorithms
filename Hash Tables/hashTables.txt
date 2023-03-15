@@ -1,0 +1,7 @@
+Hash tables, hash maps, dictionaries (python), etc.
+
+Key-value pairs
+
+Hash Function:
+String --> hash value 
+unique to string that was hashed, including upper cases and lower cases
