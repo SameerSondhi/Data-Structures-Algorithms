@@ -5,14 +5,14 @@
  * @return {number}
  */
 var strStr = function(haystack, needle) {
-    let needleLength = needle.length
-    let haystackLength = haystack.length
-    for(let i=0; i<haystack.length; i++){
-    if(needle === haystack.slice(i, needleLength)){
-        return i;
+  let needleLength = needle.length;
+  let haystackLength = haystack.length;
+  
+  for (let i = 0; i <= haystackLength - needleLength; i++) {
+    if (needle === haystack.slice(i, i + needleLength)) {
+      return i;
     }
-    else{
-        return -1
-    }
-    }
+  }
+  
+  return -1;
 };
